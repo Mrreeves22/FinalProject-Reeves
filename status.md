@@ -18,12 +18,12 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What have you done for your project so far?
 
-TODO
+I have created and started adding to the HTML and CSS files. I have figured out how to easily save my code to GitHub.
 
 #### What have you not done for your project yet?
 
-TODO
+I have not yet addressed the JavaScript aspect of the website, or have figured out the full plan for the CSS designs.
 
 #### What problems, if any, have you encountered?
 
-TODO
+The only problem I have ran into so far is getting my code to show up on GitHub.
