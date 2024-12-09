@@ -1,13 +1,35 @@
-<link rel="stylesheet" href="styles.css"
 <!DOCTYPE html>
 
-<hmtl lang="en">
+<html lang="en">
     <head>
-        <title>
-            Currency Converter
-        </title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Currency Converter</title>
     </head>
     <body>
-        Which currency would you like to convert?
+        <div class="container" id="title">
+            <div class="title">
+                <img src="./currencies.jpg" alt="Currency Converter" />
+            </div>
+            <p>Reeves Currency Converter</p>
+        </div>
+        <div class="container" id="exchange_rate">
+            <div class="exchange-rate">
+                <p id="rate-text">--- equals</p>
+                <h1 id="rate-amount">---</h1>
+            </div>
+        <div class="container" id="from_currency">
+            <div class="from-currency">
+                <input type="number" id="from-currency-amount" value="1" />
+                <select id="from-currency"></select>
+            </div>
+            <div class="to-currency">
+                <input type="number" id="to-currency-amount" readonly />
+                <select id="to-currency"></select>
+            </div>
+        </div>
+    <script src="converter.js"></script>
     </body>
-</hmtl>
+</html>
